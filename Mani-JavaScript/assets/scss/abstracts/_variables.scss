@@ -1,0 +1,32 @@
+$font-1 : 'Roboto Mono', monospace;
+$font-2 : 'Arvo', serif;
+
+$font-light: (
+    font-family: $font-1,
+    font-weight: 300,
+);
+$font-regular: (
+    font-family: $font-1,
+    font-weight: 400,
+);
+$font-medium: (
+    font-family: $font-1,
+    font-weight: 500,
+);
+$font-medium-bold: (
+    font-family: $font-1,
+    font-weight: 600,
+);
+$font-bold: (
+    font-family: $font-1,
+    font-weight: 700,
+);
+
+@mixin print-styles($map) {
+    @each $property, $value in $map {
+        #{$property}: $value;
+    }
+}
+
+$bg-color : #cbd8eb;
+$bg-color1 : #6b6d6c;

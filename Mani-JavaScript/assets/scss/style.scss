@@ -1,0 +1,16 @@
+@import "./abstracts/variables";
+@import "./mixins/breakpoints";
+@import "./abstracts/common";
+@import "./abstracts/button";
+@import "./includes/header";
+@import "./includes/footer";
+
+.main {
+    table, th, td {
+        border:1px solid black;
+        border-collapse: collapse;
+    }
+}
+.Delete {
+    display: none;
+}
